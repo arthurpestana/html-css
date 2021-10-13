@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+body {
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+}
+
+.cabecalho {
+    flex-basis: 30%;
+}
+
+.cabecalho__logo {
+
+}
+
+.cabecalho__logo img {
+
+}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+.cabecalho__menuNavegacao {
+
+}
+
+.cabecalho__menuLista {
+
+}
+
+.cabecalho__menuItem {
+    margin: 15px;
+}
+
+.cabecalho__menuItem img {
+    
+}
+
+.cabecalho__menuItem a {
+    color: #000;
+    text-decoration: unset;
+    font-size: 1.5em;
+    
+}
+
+.conteudoPrincipal {
+    flex-basis: 70%;
+}
+
+.conteudoPrincipal__titulo {
+
+}
+
+.conteudoPrincipal__formulario {
+    
+}
+
+.conteudoPrincipal__formulario textarea {
+
+}
+
+.conteudoPrincipal__formulario buttom {
+
+}
+
+.conteudoPrincipal__feed {
+
+}
+
+.conteudoPrincipal__listaTweets {
+
+}
+
+.conteudoPrincipal__tweet {
+
+}
+
+.tweet__fotoPerfil {
+
+}
+
+.tweet__conteudo {
+
+}
+
+.tweet__conteudo h2 {
+    
+}
+
+.tweet__conteudo span {
+    
+}
+
+.tweet__conteudo p {
+    
+}

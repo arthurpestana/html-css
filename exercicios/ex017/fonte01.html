@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+            /* 
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente é = 1em
+            */
+
+            font-size: 1.3em;
+            font-weight: 500;
+             /* lighter normal bold bolder*/
+             /* weight width height */
+            font-style: oblique;
+            text-decoration: underline;
+           }
+           
+        h1 {
+
+            /* shorthand font
+             - font-style -> font-weight -> font-size -> font-family 
+             
+            font font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 5em;
+            */
+             font: italic 900 5em -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           }
+
+           h2 {
+                font: normal bolder 4em -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tempore ut vitae tempora voluptates quibusdam dicta, nihil dolorem modi consequatur natus corrupti enim deleniti aliquid, neque accusantium cupiditate nostrum nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dicta fuga quisquam ea! Quod at sapiente perspiciatis? Odit provident nam, amet quos magni, suscipit sint in adipisci ipsa totam accusantium.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad illum fugit dolore adipisci ex ab repellat non fugiat, aspernatur maiores ratione? Perspiciatis quibusdam minus provident et vero a obcaecati! Laborum!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum molestias veniam consequuntur in impedit, sit asperiores, dignissimos voluptate incidunt doloremque vitae, nulla reprehenderit corrupti expedita facilis error tenetur sint.</p>
+</body>
+</html>
