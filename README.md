@@ -27,7 +27,7 @@
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex006/html4.html" target="_blank" rel="external">ex006a</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex006/html4.html" target="_blank" rel="external">ex006a</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex006/html5.html" target="_blank" rel="external">ex006b</a>
     </li>
 
