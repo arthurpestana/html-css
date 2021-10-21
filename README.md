@@ -68,18 +68,18 @@
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex016/cor01.html" target="_blank" rel="external">ex016a</a>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex016/cor02.html" target="_blank" rel="external">ex016b</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex016/cor01.html" target="_blank" rel="external">ex016a</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex016/cor02.html" target="_blank" rel="external">ex016b</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex016/cor03.html" target="_blank" rel="external">ex016c</a>
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex017/fonte01.html" target="_blank" rel="external">ex017a</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex017/fonte01.html" target="_blank" rel="external">ex017a</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex017/fonte02.html" target="_blank" rel="external">ex017b</a>
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex018/fontes01.html" target="_blank" rel="external">ex018a</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex018/fontes01.html" target="_blank" rel="external">ex018a</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex018/fontes02.html" target="_blank" rel="external">ex018b</a>
     </li>
 
@@ -88,14 +88,14 @@
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex020/hover.html" target="_blank" rel="external">ex020a</a>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex020/links.html" target="_blank" rel="external">ex020b</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex020/hover.html" target="_blank" rel="external">ex020a</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex020/links.html" target="_blank" rel="external">ex020b</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex020/pseudoclasses.html" target="_blank" rel="external">ex020c</a>
     </li>
 
     <li>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa01.html" target="_blank" rel="external">ex021a</a>
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa02.html" target="_blank" rel="external">ex021b</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa01.html" target="_blank" rel="external">ex021a</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa02.html" target="_blank" rel="external">ex021b</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa03.html" target="_blank" rel="external">ex021c</a>
     </li>
 </ul>
