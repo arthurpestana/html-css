@@ -50,7 +50,7 @@ header {
 header > h1 {
     color: #fff;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 3px 3px 3px #00000047;
     font-weight: normal;
 
@@ -64,7 +64,7 @@ header > p {
     text-shadow: 3px 3px 3px #00000047;
 
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 10px 30px;
 
     max-width: 500px;
 }
