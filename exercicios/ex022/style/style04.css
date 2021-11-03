@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #666;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    min-width: 300px;
+    width: 1200px;
+    margin: auto;
+
+    cursor: pointer;
+}
+
+#svg--stroke-gray *{
+    stroke: #767676;
+    fill: none;
+    stroke-width: 4px;
+}
+
+#svg--stroke-white *{
+    stroke: #fff;
+    fill: none;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 1s;
+}
+
+#svg--fill-white *{
+    fill: #fff;
+    stroke-width: 4px;
+    fill-opacity: 0;
+    transition: fill-opacity 1s;
+}
+
+.svg:hover #svg--fill-white *{
+    fill-opacity: 1;
+}
