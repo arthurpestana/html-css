@@ -84,33 +84,33 @@
 
 <ul>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio001/index.html" target="_blank" rel="external">desafio001</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d001/index.html" target="_blank" rel="external">desafio001</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio002/index.html" target="_blank" rel="external">desafio002</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d002/index.html" target="_blank" rel="external">desafio002</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio003/index.html" target="_blank" rel="external">desafio003</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d003/index.html" target="_blank" rel="external">desafio003</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio004/index.html" target="_blank" rel="external">desafio004</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d004/index.html" target="_blank" rel="external">desafio004</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio005/index.html" target="_blank" rel="external">desafio005</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d005/index.html" target="_blank" rel="external">desafio005</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio006/index.html" target="_blank" rel="external">desafio006</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d006/index.html" target="_blank" rel="external">desafio006</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio007/index.html" target="_blank" rel="external">desafio007</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d007/index.html" target="_blank" rel="external">desafio007</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio008/index.html" target="_blank" rel="external">desafio008</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d008/index.html" target="_blank" rel="external">desafio008</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio009/index.html" target="_blank" rel="external">desafio009</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d009/index.html" target="_blank" rel="external">desafio009</a>
     </li>
     <li>
-        <a href="https://arthurpestana.github.io/html-css/desafios/desafio010/index.html" target="_blank" rel="external">desafio010</a>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d010/index.html" target="_blank" rel="external">desafio010</a>
     </li>
 </ul>
