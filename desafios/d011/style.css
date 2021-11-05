@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Colors:*/
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --desaturated-bright-blue: rgba(65, 96, 236, 0.897);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    /*Typography*/
+    --p-size: 16px;
+    --title-size: 1.7em;
+    --family: 'Red Hat Display', sans-serif;
+    --normal: 500;
+    --bold: 700;
+    --ebold: 900;
+}
+
+body {
+    background-image: url(image/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    font-family: var(--family);
+    font-weight: var(--normal);
+    background-color: var(--pale-blue);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    background-color: var(--very-pale-blue);
+}
+
+.menu__item {
+    margin: 20px 20px;
+}
+
+.menu__item a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: var(--bold);
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+
+.menu__item a:hover {
+    background-color: var(--desaturated-blue);
+    color: var(--pale-blue);
+    transition: 0.5s;
+}
+
+.menu__item a:active {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.452);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.644);
+    transition: 0.2s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 450px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.card__illustration {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.card__info {
+    display: block;
+}
+
+.card__info > h1 {
+    font-size: var(--title-size);
+    color: var(--dark-blue);
+    font-weight: var(--ebold);
+    text-align: center;
+
+    margin: 40px auto 20px;
+}
+
+.card__info > p {
+    font-weight: var(--normal);
+    font-size: var(--p-size);
+    color: var(--desaturated-blue);
+    text-align: center;
+    margin: 5px 60px;
+}
+
+.card__plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    background-color: var(--very-pale-blue);
+}
+
+.card__icon {
+    margin-right: 20px;
+}
+
+.card__plan-info {
+    margin-right: 100px;
+}
+
+.card__plan h2 {
+    font-size: var(--p-size);
+    color: var(--dark-blue);
+    font-weight: var(--bold);
+    margin-bottom: 5px;
+}
+
+.card__plan p {
+    color: var(--desaturated-blue);
+}
+
+.card__button {
+    text-decoration: none;
+}
+
+.card__button--plan {
+    color: var(--bright-blue);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+}
+
+.card__button--plan:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+    font-weight: bold;
+}
+
+.card__button--payment {
+    display: block;
+    margin: 0px 40px;
+    text-align: center;
+    padding: 15px 80px;
+    background-color: var(--desaturated-bright-blue);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px #0000009e;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000083;
+    font-weight: var(--bold);
+    transition: 0.5s;
+}
+
+.card__button--payment:hover {
+    box-shadow: 3px 3px 10px 0px #0000009e;
+    font-weight: var(--ebold);
+    text-shadow: 1px 1px 5px #000000a8;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card__button--cancel {
+    display: block;
+    margin: 20px 150px;
+    text-align: center;
+    padding: 15px;
+    color: var(--dark-blue);
+    font-weight: var(--bold);
+}
+
+.card__button--cancel:hover {
+    font-weight: var(--ebold);
+    text-shadow: 1px 1px 2px #00000083;;
+}
