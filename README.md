@@ -76,7 +76,13 @@
     <li>
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa01.html" target="_blank" rel="external">ex021a</a>;
         <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa02.html" target="_blank" rel="external">ex021b</a>;
-        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa03.html" target="_blank" rel="external">ex021c</a>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex021/caixa03.html" target="_blank" rel="external">ex021c</a>;
+    </li>
+    <li>
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex022/animation01.html" target="_blank" rel="external">ex022a</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex022/animation02.html" target="_blank" rel="external">ex022b</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex022/animation03.html" target="_blank" rel="external">ex022c</a>;
+        <a href="https://arthurpestana.github.io/html-css/exercicios/ex022/animation04.html" target="_blank" rel="external">ex022d</a>;
     </li>
 </ul>
 
@@ -112,5 +118,8 @@
     </li>
     <li>
         <a href="https://arthurpestana.github.io/html-css/desafios/d010/index.html" target="_blank" rel="external">desafio010</a>
+    </li>
+    <li>
+        <a href="https://arthurpestana.github.io/html-css/desafios/d011/index.html" target="_blank" rel="external">desafio011</a>
     </li>
 </ul>
