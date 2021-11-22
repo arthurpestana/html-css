@@ -11,7 +11,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0 50px;
     font-size: 2.5em;
 }
 
@@ -53,14 +53,23 @@ img {
 }
 
 .section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
 }
 
 .section__prod {
-    max-width: 500px;
-    margin: 50px;
-    text-align: center;
-    font-size: 1.5em;
+    text-align: initial;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.section__anun {
+    grid-column: 1;
+    grid-row: 2 / 3 span;
 }
