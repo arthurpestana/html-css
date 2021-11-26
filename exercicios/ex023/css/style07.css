@@ -1,0 +1,21 @@
+#container {
+    height: 500px;
+    background-color: purple;
+    position: relative;
+    background-image: url(../images/target001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#conteudo {
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
