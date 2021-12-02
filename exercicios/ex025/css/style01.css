@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+}
+
+article {
+    max-width: 100px;
+}
+
+.item01 {
+    background-color: blue;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.item02 {
+    background-color: red;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.item03 {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 46%;
+}
+
+.item04 {
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}
