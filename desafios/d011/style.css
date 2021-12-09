@@ -150,7 +150,7 @@ body {
     display: block;
     margin: 0px 40px;
     text-align: center;
-    padding: 15px 80px;
+    padding: 15px;
     background-color: var(--desaturated-bright-blue);
     border-radius: 10px;
     box-shadow: 2px 2px 10px 0px #0000009e;
@@ -170,7 +170,7 @@ body {
 
 .card__button--cancel {
     display: block;
-    margin: 20px 150px;
+    margin: 20px auto;
     text-align: center;
     padding: 15px;
     color: var(--dark-blue);
@@ -180,4 +180,168 @@ body {
 .card__button--cancel:hover {
     font-weight: var(--ebold);
     text-shadow: 1px 1px 2px #00000083;;
+}
+
+@media (max-width: 1440px) {
+    .card {
+        width: 400px;
+        border-radius: 25px;
+    }
+
+    .card__illustration {
+        width: 400px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .card__info > h1 {
+        margin: 20px auto 15px;
+    }
+
+    .card__plan {
+        margin: 20px 30px;
+        padding: 25px 15px;
+    }
+
+    .card__button--payment {
+        margin: 0px 45px;
+        padding: 15px;
+    }
+
+    .card__button--cancel {
+        margin: 15px auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 655px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu__item {
+        margin: 15px 15px;
+    }
+    
+    .menu__item a {
+        padding: 5px;
+        font-size: 1.1em;
+        border-radius: 5px;
+    }
+
+    .card {
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    .card__illustration {
+        width: 350px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .card__info > h1 {
+        margin: 15px auto 10px;
+    }
+
+    .card__info > p {
+        margin: 5px 50px;
+    }
+
+    .card__plan {
+        margin: 25px 25px;
+        padding: 15px 10px;
+    }
+
+    .card__plan-info {
+        margin-right: 60px;
+    }
+
+    .card__plan-info > h2, .card__plan-info > p {
+        font-size: 0.95em;
+    }
+
+    .card__button--plan {
+        font-size: 0.95em;
+    }
+
+    .card__button--payment {
+        margin: 0px 35px;
+        padding: 10px;
+    }
+
+    .card__button--cancel {
+        margin: 15px auto;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .menu__item {
+        margin: 10px;
+    }
+    
+    .menu__item a {
+        padding: 5px;
+        font-size: 1em;
+        border-radius: 5px;
+    }
+
+    .card {
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .card__illustration {
+        width: 300px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .card__info > h1 {
+        margin: 10px auto 10px;
+        font-size: 1.3em;
+    }
+
+    .card__info > p {
+        margin: 5px 20px;
+        font-size: 0.9em;
+    }
+
+    .card__plan {
+        margin: 20px 25px;
+        padding: 15px 10px;
+    }
+
+    .card__plan-info {
+        margin-right: 30px;
+    }
+
+    .card__icon {
+        width: 40px;
+    }
+
+    .card__plan-info > h2, .card__plan-info > p {
+        font-size: 0.9em;
+    }
+
+    .card__button--plan {
+        font-size: 0.9em;
+    }
+
+    .card__button--payment {
+        margin: 0px 40px;
+        padding: 7px;
+        font-size: 0.9em;
+    }
+
+    .card__button--cancel {
+        margin: 10px auto;
+        padding: 5px;
+        font-size: 0.9em;
+    }
 }
