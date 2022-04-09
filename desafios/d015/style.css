@@ -80,8 +80,8 @@ a {
     color: white;
     font-weight: var(--regular-weight);
     font-size: var(--small-text);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -141,11 +141,11 @@ a {
     font-weight: 400;
 }
 
-.vagas {
+.main__vagas {
     text-align: center;
 }
 
-.vagas span {
+.main__vagas > span {
     padding: 4px 12px;
     border-radius: 15px;
     background-color: #8E24240D;
@@ -154,23 +154,150 @@ a {
     font-weight: var(--regular-weight);
 }
 
-.vagas h2 {
+.main__vagas h2 {
     margin: 20px;
     font-size: 36px;
     font-weight: var(--semi-bold);
     color: var(--title-color);
 }
 
-.vagas p {
+.main__vagas p {
     font-size: 20px;
     color: var(--text-color);
     font-weight: 400;
 }
 
-.vagas__img {
+.main__img {
     margin: 64px;
 }
 
-.vagas__img img {
+.main__img img {
     width: 90%;
+}
+
+.vagas {
+    width: 768px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.vagas h3 {
+    margin: 0px 0px 32px;
+    font-size: var(--medium-text);
+    font-weight: var(--regular-weight);
+    color: var(--title-color);
+}
+
+.vagas h4 {
+    font-size: 18px;
+    font-weight: var(--regular-weight);
+    color: var(--title-color);
+    margin-bottom: 32px;
+}
+
+.vagas div {
+    padding: 24px 24px 28px 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.vagas span {
+    font-size: var(--small-text);
+    font-weight: var(--regular-weight);
+    color: var(--text-color);
+    padding-right: 24px;
+}
+
+.vagas__design {
+    margin: 0px 0px 64px 0px;
+}
+
+.vagas__design--product, .vagas__prog--ios, .vagas__prog--front {
+    margin-bottom: 24px;
+}
+
+.depoiment {
+    text-align: center;
+    margin: 96px 224px;
+}
+
+.depoiment__box {
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+}
+
+.depoiment__box > p {
+    color: var(--focus-color);
+    font-size: 14px;
+    font-weight: var(--semi-bold);
+}
+
+.depoiment__box > h1 {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: var(--regular-weight);
+    width: 1090px;
+    margin: 16px auto 32px;
+}
+
+.depoiment__box h3 {
+    color: var(--title-color);
+    font-size: var(--small-text);
+    font-weight: var(--regular-weight);
+    margin: 16px 0px 4px;
+}
+
+.depoiment__box span {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 96px 0px;
+}
+
+.form__head {
+    margin-bottom: 40px;
+}
+
+.form__head h1 {
+    font-size: 36px;
+    font-weight: var(--semi-bold);
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+.form__head p {
+    font-size: var(--medium-text);
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.form__info {
+    font-size: var(--small-text);
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+#email {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 14px 14px 14px 16px;
+    width: 360px;
+    margin: 0px 16px 32px 0px;
+}
+
+#cadastro {
+    background-color: var(--focus-color);
+    border: 1px solid var(--focus-color);
+    color: white;
+    font-weight: var(--regular-weight);
+    font-size: var(--small-text);
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }
