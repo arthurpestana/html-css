@@ -301,3 +301,40 @@ a {
     border-radius: 8px;
     cursor: pointer;
 }
+
+@media (max-width: 1640px) {
+    .menu {
+        justify-content: space-around;
+    }
+    
+    .menu__logo {
+        margin: 0px 0px 0px 50px;
+    }
+    
+    .menu__links {
+        padding: 0px 100px 0px 0px;  
+    }
+    
+    .menu__buttons {
+        margin: 0px 50px 0px 0px;
+    }
+    
+    #menu__button--login {
+        color: var(--text-color);
+        margin: 15px;
+        padding: 5px;
+        font-size: var(--small-text);
+        font-weight: var(--regular-weight);
+    }
+    
+    #menu__button--sign {
+        background-color: var(--focus-color);
+        border: 1px solid var(--focus-color);
+        color: white;
+        font-weight: var(--regular-weight);
+        font-size: var(--small-text);
+        padding: 12px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
