@@ -333,8 +333,6 @@ a {
         color: white;
         font-weight: var(--regular-weight);
         font-size: var(--small-text);
-        padding: 12px 20px;
-        border-radius: 8px;
         cursor: pointer;
     }
 }
