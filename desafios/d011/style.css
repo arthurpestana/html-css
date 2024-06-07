@@ -182,6 +182,37 @@ body {
     text-shadow: 1px 1px 2px #00000083;;
 }
 
+@media (max-width: 1600px) {
+    .card {
+        width: 400px;
+        border-radius: 25px;
+    }
+    
+    .card__illustration {
+        width: 400px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .card__info > h1 {
+        margin: 20px auto 15px;
+    }
+
+    .card__plan {
+        margin: 20px 30px;
+        padding: 25px 15px;
+    }
+
+    .card__button--payment {
+        margin: 0px 45px;
+        padding: 15px;
+    }
+
+    .card__button--cancel {
+        margin: 15px auto;
+        padding: 10px;
+    }
+}
+
 @media (max-width: 1440px) {
     .card {
         width: 400px;
